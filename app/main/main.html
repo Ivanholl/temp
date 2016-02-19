@@ -1,0 +1,8 @@
+<div ng-controller="mainCtrl">
+    <button ng-click="chooseGame('simple')">Simple Scratchcard</button>
+    <button ng-click="chooseGame('memory')">Memory Scratchcard</button>
+    <button ng-click="chooseGame('create')">CreateJS Scratchcard</button>
+    <div ng-if="game.simple" ng-include="'app/simple/WinLose.html'"></div>
+    <div ng-if="game.memory" ng-include="'app/memory/memory.html'"></div>
+    <div ng-if="game.create" ng-include="'app/createjs/createjs.html'"></div>
+</div>

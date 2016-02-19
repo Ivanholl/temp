@@ -1,0 +1,29 @@
+<div ng-controller="memoryCtrl" class="memory-board">
+    <div class="inline">
+        <img onmousedown="return false" src="pics/memoryBoard.PNG"/>
+        <div id="squere-1" ng-click="check('squere-1')" class="canvas"></div>
+        <div id="squere-2" ng-click="check('squere-2')" class="canvas"></div>
+        <div id="squere-3" ng-click="check('squere-3')" class="canvas"></div>
+        <div id="squere-4" ng-click="check('squere-4')" class="canvas"></div>
+        <div id="squere-5" ng-click="check('squere-5')" class="canvas"></div>
+        <div id="squere-6" ng-click="check('squere-6')" class="canvas"></div>
+        <div id="squere-7" ng-click="check('squere-7')" class="canvas"></div>
+        <div id="squere-8" ng-click="check('squere-8')" class="canvas"></div>
+        <div id="squere-9" ng-click="check('squere-9')" class="canvas"></div>
+        <div id="squere-10" ng-click="check('squere-10')" class="canvas"></div>
+        <div id="squere-11" ng-click="check('squere-11')" class="canvas"></div>
+        <div id="squere-12" ng-click="check('squere-12')" class="canvas"></div>
+    </div>
+    <button ng-click="reset()">Reset</button>
+    <button ng-click="checkWin()">check</button>
+    <button ng-click="clear()">clear all</button>
+    <div class="inline">
+        <span>Posible Symbols</span>
+        <img class="possible" src="pics/symbols/1.png"/>
+        <img class="possible" src="pics/symbols/2.png"/>
+        <img class="possible" src="pics/symbols/3.png"/>
+        <img class="possible" src="pics/symbols/4.png"/>
+        <img class="possible" src="pics/symbols/5.png"/>
+        <img class="possible" src="pics/symbols/6.png"/>
+    </div>
+</div>

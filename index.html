@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Some title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="app">
+
+    <div id='container' ng-include="'app/main/main.html'"></div>
+
+    <!--for create.js-->
+    <script type="text/javascript" src="bower_components\lodash\dist\lodash.js"></script>
+    <script type="text/javascript" src="bower_components\EaselJS\lib\easeljs-0.8.2.min.js"></script>
+    <script type="text/javascript" src="bower_components\preloadjs\dist\preload.js"></script>
+
+    <script type="text/javascript" src="bower_components\jquery\dist\jquery.js"></script>
+    <script type="text/javascript" src="bower_components\wScratchPad\wScratchPad.min.js"></script>
+    <script type="text/javascript" src="bower_components\angular\angular.js"></script>
+
+    <!--Angular-->
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/main/mainCtrl.js"></script>
+    <script type="text/javascript" src="app/simple/scratchCtrl.js"></script>
+    <script type="text/javascript" src="app/memory/memoryCtrl.js"></script>
+    <script type="text/javascript" src="app/createjs/createjsCtrl.js"></script>
+
+</body>
+</html>

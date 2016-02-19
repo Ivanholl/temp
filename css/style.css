@@ -1,0 +1,92 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/**************************************memory*/
+.possible {
+    width: 75px;
+    height: 75px;
+}
+
+.inline {
+    display: inline-block;
+    float: left;
+}
+
+.memory-board {
+    position: relative;
+}
+
+.canvas {
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 135px;
+    z-index: 3;
+}
+
+#squere-1 {
+    top: 54px;
+    left: 33px;
+}
+#squere-2 {
+    top: 54px;
+    left: 216px;
+    z-index: 2;
+}
+#squere-3 {
+    top: 54px;
+    left: 398px;
+}
+#squere-4 {
+    top: 54px;
+    left: 581px;
+}
+#squere-5 {
+    top: 238px;
+    left: 33px;
+}
+#squere-6 {
+    top: 238px;
+    left: 216px;
+    z-index: 2;
+}
+#squere-7 {
+    top: 238px;
+    left: 398px;
+}
+#squere-8 {
+    top: 238px;
+    left: 581px;
+}
+#squere-9 {
+    top: 421px;
+    left: 33px;
+}
+#squere-10 {
+    top: 421px;
+    left: 216px;
+    z-index: 2;
+}
+#squere-11 {
+    top: 421px;
+    left: 398px;
+}
+#squere-12 {
+    top: 421px;
+    left: 581px;
+}
+/*********************************************** simple*/
+#hidden-content {
+    width:240px;
+    height:240px;
+    border: 2px solid black;
+}
+/******************************************create.js*/
+#createjsCanvas {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+}
